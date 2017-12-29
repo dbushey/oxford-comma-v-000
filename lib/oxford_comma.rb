@@ -9,7 +9,8 @@ def oxford_comma(array)
     #str1 "," str2 "," "and" str3
     first = array.pop
     last = array.slice(2)
-
+    str = first*", " + "and " + last
+    return str
   else
     #turn the array into str, all elements separeted by "," "and" last element
     array*", "
